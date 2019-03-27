@@ -7,7 +7,7 @@ function calculator() {
     if (b == '-') {
         string = a - c
     } else if (b == '+') {
-        string = a + c
+        string = Number(+a + +c)
     } else if (b == '*') {
         string = a * c
     } else if (b == '/') {
